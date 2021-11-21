@@ -1,3 +1,5 @@
+require "formula"
+
 class Containerd < Formula
   desc "An open and reliable container runtime"
   homepage "https://containerd.io"
