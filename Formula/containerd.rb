@@ -1,10 +1,8 @@
-require "formula"
-
 class Containerd < Formula
   desc "An open and reliable container runtime"
   homepage "https://containerd.io"
   url "https://github.com/containerd/containerd",
-    using:  GitHubPrivateRepositoryDownloadStrategy,
+    using:  :git,
     tag:    "v1.5.8"
   license "Apache-2.0"
 
